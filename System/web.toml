@@ -1,0 +1,9 @@
+importmod Web
+
+web {
+    element WebBrowser1 as WebBrowserEdge {
+        Event:Load {
+            
+        }
+    }
+}

@@ -1,0 +1,8 @@
+importmod Notepad;
+
+element txtNotepad as new Notepad {
+    Event:Save {
+        ShowDialog FileBrowseForSave1 as FileBrowseForSave;
+        FileSave FileBrouseForSave1.FileName;
+    }
+}

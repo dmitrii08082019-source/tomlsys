@@ -1,0 +1,10 @@
+impotmod Kernel
+
+kernel {
+    if {krnldata = true} {
+        StartCore
+        else {
+            KrnlMsg "Error: Kernel data = False (Data Not Found Error 0x000404)"   
+        }
+    }
+}

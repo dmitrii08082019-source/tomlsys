@@ -1,0 +1,6 @@
+importmod boot
+
+boot {
+    Loader = tomlload.toml
+    Start - Loader
+}
